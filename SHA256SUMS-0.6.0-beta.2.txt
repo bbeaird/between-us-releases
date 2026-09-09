@@ -1,0 +1,2 @@
+30db7626e95a2e9320b0c174e5ed236e6fa558b175cd3afeff8a3946ca2e30e4  Between-Us-0.6.0-beta.2.dmg
+b846ff0cd6f7343ed2c8cd3b5434a0cbb785f5c181ac0e89358e0db4a60a075e  Between-Us-0.6.0-beta.2.zip

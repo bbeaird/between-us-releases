@@ -4,18 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Between Us</title>
         <item>
-            <title>0.6.0-beta.1.1</title>
-            <pubDate>Wed, 09 Sep 2026 13:13:30 -0700</pubDate>
+            <title>0.6.0-beta.2</title>
+            <pubDate>Wed, 09 Sep 2026 13:19:45 -0700</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.6.0-beta.1.1</sparkle:shortVersionString>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.6.0-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink sparkle:edSignature="tWeyiiweyIIIA6Zvj1E9SzLt47Y9KDEkplo8jjI0aljj4JCBWYAuWl7g86zlOYDbdR3xXsIgPuZ/yVnrXKbhDQ==" sparkle:length="1261">https://bbeaird.github.io/between-us-releases/beta/notes/Between-Us-0.6.0-beta.1.1.md</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/bbeaird/between-us-releases/releases/download/v0.6.0-beta.1.1/Between-Us-0.6.0-beta.1.1.zip" length="12026070" type="application/octet-stream" sparkle:edSignature="g8NOMZ3gftUeCyA2SH09uip0WbIOPbx4mGahG3p/BwNygUsRQbIXlZZyKCoBNq8YNXByCBBSccbMJd9OkkuRCw=="></enclosure>
+            <sparkle:releaseNotesLink sparkle:edSignature="XfSLJ5w1iSitmRUmDLtNWrAPje+1W4I43nJPj8s/8mg7O0+eaDUUrb5CL9Hk4QsVKy2LJqB36teCS1SOzoGcAg==" sparkle:length="943">https://bbeaird.github.io/between-us-releases/beta/notes/Between-Us-0.6.0-beta.2.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/bbeaird/between-us-releases/releases/download/v0.6.0-beta.2/Between-Us-0.6.0-beta.2.zip" length="12026069" type="application/octet-stream" sparkle:edSignature="qtZllYuZWYuqY7GLTvTUVf+3qjRh7FHGvMu+qSQa1H4avtcbqMLei0S29maGxJtS6cbC3UuQnvOT3jtNuRY4Cw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: JjX/iKcq0bVbYQZMCqDkgyF2wcYimPro1pzuISCvIk3PfKt1bhvJMC8Fr7Q05phAL5fHN1pFI00Ygb09gPJGCg==
-length: 1507
+edSignature: LeFws1yGRtgxaz3GsL1tWfouDM2YOABTJkUobrg0FPFoGofOrOBHz4KwR3GURgil/G4ZlBNRGGku4MIC7O2mDA==
+length: 1496
 -->
