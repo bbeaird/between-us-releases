@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Between Us</title>
+        <item>
+            <title>0.6.0-beta.3</title>
+            <pubDate>Wed, 21 Oct 2026 15:24:34 -0700</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.6.0-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink sparkle:edSignature="t2lGdtwVuI/FQlhMwfmTwpJvIRIo4V+075M0ae5pS6kiLSpXmN8onQpGOg+8Q3E0SaYQH2LrPhIKpoJX0H4dCQ==" sparkle:length="2501">https://bbeaird.github.io/between-us-releases/beta-v2/notes/Between-Us-0.6.0-beta.3.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/bbeaird/between-us-releases/releases/download/v0.6.0-beta.3/Between-Us-0.6.0-beta.3.zip" length="9592983" type="application/octet-stream" sparkle:edSignature="31y4Orl6Fprh7D9r2U68VUzYnVvfPo4+G4GDZzjIbuT9dqrAHWkqOZhm/rBIREY6jSF7+a3PYGL6xPI7GCtoDA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: z8wdZGq4hZB0mheWdwByw8YSpCribk9dRdnfDuVsHVdY6lZZ2uV82e7LSz9joMu31veAEGBRlrbnAfFkFhj4Dw==
+length: 1499
+-->
