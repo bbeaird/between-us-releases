@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Between Us Privacy Policy</title>
+<link rel="icon" href="data:,">
+<style>
+:root { --bg: #fbfaf7; --ink: #1d1c1a; --muted: #5d5a54; --line: #e3dfd6; --accent: #8a3b12; --code: #f1eee7; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #171614; --ink: #ecebe7; --muted: #a9a59c; --line: #34312c; --accent: #f0a46c; --code: #24221f; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 16px 3rem; }
+h1 { margin: 0 0 .25rem; font-size: 1.8rem; line-height: 1.2; }
+.meta { margin: 0 0 2rem; color: var(--muted); font-size: .95rem; }
+h2 { margin: 2rem 0 .5rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: 1.15rem; }
+p, ul { margin: 0 0 .9rem; }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: .45rem; }
+a { color: var(--accent); overflow-wrap: anywhere; }
+code { padding: .05em .3em; border-radius: 4px; background: var(--code); font: .86em/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+<h1>Between Us Privacy Policy</h1>
+<p class="meta">Effective October 23, 2026 · Developer: Brantley Beaird</p>
+
+<h2>What stays on this Mac</h2>
+<p>Between Us reads your Messages database read-only and, if you allow it, Contacts to show names. Analysis and Local Gemma answers run on this Mac. Cloud API keys are stored in macOS Keychain. Nothing from Messages or Contacts leaves this Mac unless you ask a cloud AI question.</p>
+
+<h2>Usage analytics</h2>
+<p>On by default: the first-run step shows “Shares anonymous usage stats.” with its toggle, and nothing is sent before it appears. Events go to Segment, which passes them to Google Analytics.</p>
+<p>Events: <code>app_opened</code>, <code>screen_view</code>, <code>messages_connection_requested</code>, <code>messages_connection_completed</code>, <code>messages_connection_failed</code>, <code>analysis_requested</code>, <code>analysis_completed</code>, <code>analysis_failed</code>, <code>ai_question_requested</code>, <code>ai_question_completed</code>, <code>ai_question_failed</code>, <code>local_model_download_started</code>, <code>local_model_download_completed</code>, <code>local_model_download_failed</code>, <code>local_model_load_result</code>, <code>conversation_table_interacted</code>, <code>comparison_window_changed</code>, <code>backup_result</code>, <code>restore_result</code>, <code>retry_requested</code>, <code>empty_state_viewed</code>.</p>
+<p>Properties, each limited to fixed values: <code>launch_source</code>, <code>screen_name</code>, <code>previous_screen_id</code>, <code>stage</code>, <code>preset_range</code>, <code>trigger</code>, <code>engine</code>, <code>latency_bucket</code>, <code>error_code</code>, <code>model_id</code>, <code>result</code>, <code>action</code>, <code>column_id</code>, <code>view_id</code>, <code>operation</code>, <code>attempt_bucket</code>, <code>previous_error_code</code>, <code>feature_id</code>, <code>reason</code>. Every event also carries <code>app</code>, <code>platform</code>, <code>app_version</code>, <code>build</code>, <code>environment</code>, <code>data_mode</code>, <code>surface</code>, <code>schema_version</code>, <code>engagement_time_msec</code> (always 1), <code>timestamp</code>, random <code>messageId</code> and <code>session_id</code>, <code>operation_id</code> linking requests to results, and <code>anonymousId</code>: a random identifier created each time the app opens and never saved. No message text, names, questions, answers or search terms are included.</p>
+<p>Segment sees the IP address each request comes from; the event’s own IP field is <code>0.0.0.0</code>.</p>
+<p>Turn it off on the first-run step, in Help (?), or in Between Us › Usage Analytics…. This stops future sends but does not delete events already sent. See <a href="https://www.twilio.com/en-us/legal/privacy">Segment (Twilio) privacy</a> and <a href="https://policies.google.com/privacy">Google privacy</a>.</p>
+
+<h2>Other connections</h2>
+<ul>
+<li><strong>Updates:</strong> when you choose Check for Updates… or turn on automatic checks, the app asks GitHub for updates, sending its version but no system profile.</li>
+<li><strong>Local AI:</strong> only when you download it, the app fetches the 18.4 GB Gemma model from Hugging Face, sending its version and any Hugging Face access token saved on this Mac.</li>
+<li><strong>Cloud AI (OpenAI, Anthropic, xAI):</strong> off until you allow cloud AI, add your API key and choose that provider. Each question about one person then sends that provider your question, the person’s name as shown (from Contacts if allowed), the date range, that conversation’s statistics, every readable message in the range with its ID, date, time and sender, up to six earlier questions or answers from this session, and your key. Questions across conversations stay on this Mac.</li>
+</ul>
+<p>Each service sees your IP address; its own policy applies.</p>
+
+<h2>Contact</h2>
+<p>Open an issue at <a href="https://github.com/bbeaird/between-us-releases/issues">https://github.com/bbeaird/between-us-releases/issues</a>. Leave out message content.</p>
+</main>
+</body>
+</html>
